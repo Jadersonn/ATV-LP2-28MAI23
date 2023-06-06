@@ -1,8 +1,9 @@
-package sistemaRH;
-import interfaces.DepartamentoDAO;
+package dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import entidades.Departamento;
 
 public class DepartamentoView implements DepartamentoDAO {
 private Connection connection;

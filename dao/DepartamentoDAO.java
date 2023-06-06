@@ -1,6 +1,7 @@
-package interfaces;
-import 	sistemaRH.Departamento;
+package dao;
 import 	java.util.List;
+
+import entidades.Departamento;
 
 public interface DepartamentoDAO {
     void cadastrarDepartamento(Departamento departamento);

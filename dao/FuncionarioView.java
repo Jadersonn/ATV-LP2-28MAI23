@@ -1,8 +1,9 @@
-package sistemaRH;
-import interfaces.FuncionarioDAO;
+package dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import entidades.Funcionario;
 
 public class FuncionarioView implements FuncionarioDAO {
     private Connection connection;

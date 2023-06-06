@@ -1,6 +1,7 @@
-package interfaces;
-import sistemaRH.Funcionario;
+package dao;
 import java.util.List;
+
+import entidades.Funcionario;
 
 public interface FuncionarioDAO {
     void cadastrarFuncionario(Funcionario funcionario);

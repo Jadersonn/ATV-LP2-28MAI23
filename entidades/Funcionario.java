@@ -1,4 +1,4 @@
-package sistemaRH;
+package entidades;
 
 public class Funcionario {
 	private int funcionarioId;

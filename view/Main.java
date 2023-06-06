@@ -1,14 +1,4 @@
 package view;
-//Conexao com os outros packages de Departamento 
-import interfaces.DepartamentoDAO;
-import sistemaRH.Departamento;
-import sistemaRH.DepartamentoView;
-
-//Conexao com os outros packages de Funcionario
-import interfaces.FuncionarioDAO;
-import sistemaRH.Funcionario;
-import sistemaRH.FuncionarioView;
-
 //Conexoes com o banco de dados
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,6 +7,13 @@ import java.sql.SQLException;
 //Listas para Funcionario e Departamento
 import java.util.List;
 import java.util.Scanner;
+
+import dao.DepartamentoDAO;
+import dao.DepartamentoView;
+import dao.FuncionarioDAO;
+import dao.FuncionarioView;
+import entidades.Departamento;
+import entidades.Funcionario;
 
 public class Main {
 	static String URL = "jdbc:mysql://localhost:3306/atvLP2";
